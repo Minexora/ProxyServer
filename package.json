@@ -1,0 +1,20 @@
+{
+  "name": "proxyserver",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "proxy_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "node client.js",
+    "proxy_server": "node proxy_server.js",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  }
+}
