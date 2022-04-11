@@ -50,6 +50,7 @@ class ProxyServerClass {
 
         this.server_socket.on("disconnect", () => {
             console.log(`Server bağlantı sonlandırılıyor. Sonlandırılan bağlantı id: ${this.sid}`);
+            delete this.sids[this.sid]
         });
     }
 }
